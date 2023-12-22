@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
+body{
+    font-family: 'Rubik Mono One', monospace;
+    color: #132a13;
+    background-color: #90a955;
+    letter-spacing: 5px;
+}
+
+table{
+    width: 100%;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    font-family: 'Rubik Mono One', monospace;
+    padding-top: 80px;
+}
+
+.form {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    padding-top: 80px;
+  }
+
+.form form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form form input{
+    height: 40px;
+    padding: 0 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ecf39e;
+    color: #132a13;
+    font-family: 'Rubik Mono One', monospace;
+}
+
+.button {
+    margin-top: 20px;
+    background-color: #132a13;
+    color: #ecf39e;
+    width: fit-content;
+    padding: 15px 8px;
+    font-size: 25px;
+    border-radius: 5px;
+    margin: 30px auto;
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: #ecf39e;
+    color: #132a13;
+}
+
+/* table */
+
+.container {
+    display: none;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 90vw;
+    table-layout: fixed;
+  }
+  
+  .table td, .table th {
+    border: none;
+    padding: 8px;
+  }
+  
+  .table tr:nth-child(even){background-color: #ecf39e;}
+  
+  .table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #132a13;
+    color: #ecf39e;
+    font-weight: normal;
+  }
+
+  .end_credit{
+    font-size: larger;
+    padding-top: 40px;
+    display: none;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+  }

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Iterations 2.0</title>
+</head>
+<body>
+    <header>
+        <div class="heading">
+            <h1>iterations 2.0</h1>
+        </div>
+    </header>
+    <div class="form" id="form">
+      <form>
+        <label for="equation">Equation:</label>
+        <input type="text" name="equation" id="equation" placeholder="(x**3) - x -1" value="(x**3)-x-1">
+        <br>
+        <label for="guess1">guess1:</label>
+        <input type="text" name="guess1" id="guess1" placeholder="1" value="1">
+        <br>
+        <label for="guess2">guess2:</label>
+        <input type="text" name="guess2" id="guess2" placeholder="2" value="2">
+        <br>
+        <label for="error">Error(in dp):</label>
+        <input type="text" name="error" id="error" placeholder="5" value="5">
+    </form>
+    <div class="button" id="button">
+      solve
+    </div>
+    </div>
+
+    <div class="container" id="container">
+        <table class="table" id="table">
+            <tr>
+              <th>Generation</th>
+              <th>X</th>
+              <th>F(X)</th>
+            </tr>
+          </table>
+    </div>
+    <div>
+        <div class="end_credit"> 
+            <p id="p2"></p> 
+            <p id="p1"></p>
+        </div>
+    </div>
+    
+</body>
+<script src="app.js"></script>
+</html>
